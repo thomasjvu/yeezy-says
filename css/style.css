@@ -1,0 +1,92 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+  cursor: crosshair;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img{
+  display: block;
+  margin: 0 auto;
+}
+
+body {
+  margin: 0 auto;
+  text-align: center;
+  max-width: 1140px;
+  background: #f58b57;
+  font-family: 'Permanent Marker', sans-serif;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+section {
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center; */
+  margin: 25px;
+}
+
+button {
+  background: #000;
+  color: #fff;
+  max-width: 30%;
+  font-size: 1.5rem;
+  padding: 15px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: darkgrey;
+  color: black;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+#main-img {
+  max-width: 33%;
+  border-radius: 25px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  margin-bottom: 25px;
+}
+
+#main-img:hover {
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  -webkit-transition: all 2s ease;
+  transition: all 2s ease;
+}
+
+h2 {
+  font-size: 3rem;
+}
+p {
+  font-size: 2rem;
+}
+
+#credits {
+  font-size: 1.15rem;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  color: black;
+}
+
+a {
+  margin-top: 25px;
+}
